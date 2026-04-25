@@ -19,8 +19,8 @@ export class Order {
   public map: any;
   private mapRoute: any;
 
-  public routeForm: FormGroup | undefined;
-  public orderForm: FormGroup | undefined;
+  public routeForm: FormGroup;
+  public orderForm: FormGroup;
 
   public orderId: any = signal(null);
   public calculationResult: any = signal(null);
